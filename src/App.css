@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+.ya {
+  width: 1000px;
+  margin: 30px auto 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.news {
+  margin-bottom: 30px;
+}
+.news-headers,
+.news-list,
+.exchange {
+  margin: 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.news-headers ul {
   display: flex;
-  flex-direction: column;
+  gap: 10px;
+}
+.news-list ul li {
+  display: flex;
   align-items: center;
+  margin-top: 5px;
+  gap: 10px;
+}
+.news-list ul li img {
+  border-radius: 8px;
+}
+.exchange ul {
+  display: flex;
+  gap: 20px;
+}
+
+.search {
+  margin-bottom: 30px;
+}
+.search-category,
+.search-elements,
+.search-tip {
+  margin: 10px 0;
+}
+.search-category ul {
+  display: flex;
+  gap: 10px;
+}
+.search-elements {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search-logo {
+  font-size: 2em;
+}
+.search-input {
+  width: 600px;
+  height: 40px;
+  border: 1px solid #777;
+}
+.search-btn {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #777;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.ads {
+  margin-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column-3 {
+  width: 33%;
+}
+.widget {
+  margin-bottom: 20px;
+}
+.widget-header {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+.widget li {
+  margin-bottom: 5px;
+}
+
+.weather .row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.weather .row img {
+  border-radius: 16px;
+}
+.weather .row div:nth-child(2) {
+  font-size: 1.6em;
+}
+.weather .row div:nth-child(3) {
+  font-size: 0.8em;
 }
