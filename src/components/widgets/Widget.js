@@ -1,5 +1,10 @@
 import React from "react";
 
+/**
+ * Компонент для блока виджета
+ */
+
+
 function Widget (props) {
   return (
     <div className={'widget ' + props.class}>

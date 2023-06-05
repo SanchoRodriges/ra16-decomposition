@@ -1,5 +1,9 @@
 import React from "react";
 
+/**
+ * Компонент с рекламным баннером
+ */
+
 function Ads () {
   return (
     <div className="ads">

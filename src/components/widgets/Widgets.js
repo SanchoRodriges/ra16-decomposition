@@ -3,6 +3,10 @@ import Widget from "./Widget";
 import Listing from "../list/Listing";
 import ListingWithIco from "../list/ListingWithIco";
 
+/**
+ * Компонент блока с виджетами
+ */
+
 function Widgets () {
 
   const popularLinks = [

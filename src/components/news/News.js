@@ -1,5 +1,9 @@
 import React from "react";
 
+/**
+ * Компонент блока с новостной лентой
+ */
+
 function News () {
   return (
     <div className="news">

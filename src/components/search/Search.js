@@ -1,5 +1,9 @@
 import React from "react";
 
+/**
+ * Компонент блока со строкой поиска и логотипом
+ */
+
 function Search () {
   return (
     <div className="search">
